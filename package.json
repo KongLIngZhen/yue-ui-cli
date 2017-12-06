@@ -1,0 +1,14 @@
+{
+  "name": "yue-ui-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI for init Yue component.",
+  "main": "index.js",
+  "bin": {
+    "yue-init": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sy <286506460@qq.com>",
+  "license": "MIT"
+}
