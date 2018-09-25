@@ -6,8 +6,8 @@
 
 ```
 
-npm install yue-ui-cli -g
+npm install @s-yue/yue-ui-cli -g
 
-yue-init xxx
+$ yue-init <component-name> -t
 
 ```
