@@ -1,4 +1,4 @@
-import yue_ui_component from './yue_ui_component.vue'
+import yue_ui_component from './src/yue_ui_component.vue'
 
 yue_ui_component.install = function (Vue) {
 	Vue.component(yue_ui_component.name, yue_ui_component)
