@@ -1,14 +1,19 @@
 {
-  "name": "yue-ui-cli",
-  "version": "1.0.0",
+  "name": "@s-yue/yue-ui-cli",
+  "version": "1.1.0",
   "description": "A simple CLI for init Yue component.",
-  "main": "index.js",
   "bin": {
-    "yue-init": "./index.js"
+    "yue-init": "./bin/yue-init.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sy <286506460@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0",
+    "ora": "^3.0.0"
+  }
 }
